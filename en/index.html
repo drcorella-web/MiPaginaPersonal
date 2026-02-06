@@ -30,12 +30,11 @@
 					<header>
 						<h1>Hi, I'm <strong>Carlos Corella R</strong>.</h1>
 					</header>
-					<p>Welcome to my <strong>personal portal</strong>. Here you will find information about me and my
-						work: educational projects, lottery and memory games, and above all, my professional services.
-					</p>
-					<p>I work in various fields: I am a <strong>dentist</strong>, an <strong>electrician</strong>, and I
-						also provide <strong>psychological counseling</strong>. I hope you enjoy it.</p>
-					<a href="#work" class="button large scrolly">Learn more about what I do</a>
+					<p>Welcome to my <strong>personal portal</strong>. Here you will find information about me and what
+						I do: educational projects, lottery and memory games, and above all, my professional work.</p>
+					<p>I work in various fields: I am a <strong>dentist</strong>, <strong>electrician</strong>, and
+						I also provide <strong>psychological support</strong>. I hope you enjoy it.</p>
+					<a href="#work" class="button large scrolly">Learn more about my work</a>
 				</div>
 			</div>
 		</div>
@@ -44,7 +43,7 @@
 	<article id="work" class="wrapper style2">
 		<div class="container">
 			<header>
-				<h2>Professional Services.</h2>
+				<h2>My professional services.</h2>
 				<p>Offering comprehensive solutions in health, technical areas, and emotional well-being.</p>
 			</header>
 			<div class="row aln-center">
@@ -52,7 +51,8 @@
 					<section class="box style1">
 						<span class="icon solid featured fa-user-md"></span>
 						<h3>Dentistry</h3>
-						<p>Care for your smile at Dental Coronado, with high-quality service.</p>
+						<p>Smile care at Dental Coronado, providing high-quality dental attention.
+						</p>
 					</section>
 				</div>
 				<div class="col-4 col-6-medium col-12-small">
@@ -81,7 +81,7 @@
 		<div class="container">
 			<header>
 				<h2>Games and Educational Projects.</h2>
-				<p>Explore these tools designed to make learning fun.</p>
+				<p>Explore these tools designed to learn in a fun way.</p>
 			</header>
 			<div class="row">
 				<div class="col-4 col-6-medium col-12-small">
@@ -92,81 +92,123 @@
 				</div>
 				<div class="col-4 col-6-medium col-12-small">
 					<article class="box style2">
-						<h3><a href="https://drcorella-web.github.io/mi-loteria/memorama.html">Mexican Lottery Memory
-								Game</a></h3>
+						<h3><a href="https://drcorella-web.github.io/mi-loteria/memorama.html">Lottery Memory Game</a>
+						</h3>
 						<p>Memory game based on the Mexican Lottery.</p>
 					</article>
 				</div>
+
 				<div class="col-4 col-6-medium col-12-small">
 					<article class="box style2">
 						<h3><a href="https://drcorella-web.github.io/memorama/">LIPS Memory Game</a></h3>
 						<p>Meet the members of LIPS.</p>
 					</article>
 				</div>
+
 				<div class="col-4 col-6-medium col-12-small">
 					<article class="box style2">
 						<span class="image featured"><img src="images/clinica.jpg" alt="" /></span>
 						<h3><a href="https://drcorella-web.github.io/memorama/">Trivia and Challenges</a></h3>
-						<p>Test your knowledge with our Q&A programs.</p>
+						<p>Test your knowledge with Q&A programs.</p>
 					</article>
 				</div>
 			</div>
+			<footer>
+				<p>Do you have any questions or inquiries?</p>
+			</footer>
 		</div>
 	</article>
 
+	Tienes toda la razón, Carlos. No basta con cambiar las palabras; si no ajustamos las etiquetas internas, el diseño
+	se rompe y aparecen esos cuadros blancos "chafas".
+
+	Aquí tienes el código exacto en español, con la estructura técnica corregida para que la "familia" de colores sea
+	uniforme (gris oscuro) y nada salga en blanco. He aplicado los cambios directamente sobre la estructura que me
+	pasaste:
+
+	HTML
 	<article id="contact" class="wrapper style4">
-    <div class="container medium">
-        <header>
-            <h2>Let's Talk.</h2>
-            <p>Please fill out the form below to schedule an appointment or for any professional inquiries.</p>
-        </header>
-        <div class="row">
-            <div class="col-12">
-                <form method="post" action="https://formspree.io/f/mzdapore">
-                    <div class="row">
-                        <div class="col-6 col-12-small">
-                            <input type="text" name="name" id="name" placeholder="Name" required />
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <input type="text" name="email" id="email" placeholder="Email" required />
-                        </div>
-                        <div class="col-12">
-                            <input type="text" name="subject" id="subject" placeholder="Subject / Phone Number" />
-                        </div>
-                        <div class="col-12">
-                            <textarea name="message" id="message" placeholder="Message" required></textarea>
-                        </div>
+		<div class="container medium">
+			<header>
+				<h2>Hablemos.</h2>
+				<p>Escríbeme para agendar una cita o realizar alguna consulta profesional.</p>
+			</header>
+			<div class="row">
+				<div class="col-12">
+					<form method="POST" action="https://formspree.io/f/mzdapore">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-small">
+								<input type="text" name="name" id="name" placeholder="Nombre Completo" required />
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="text" name="email" id="email" placeholder="Correo Electrónico" required />
+							</div>
+							<div class="col-12">
+								<input type="text" name="subject" id="subject" placeholder="Asunto / Teléfono" />
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Mensaje" required></textarea>
+							</div>
 
-                        <input type="hidden" name="_next" value="https://drcorella-web.github.io/gracias.html">
+							<input type="hidden" name="_next" value="https://drcorella-web.github.io/gracias.html">
 
-                        <div class="col-12">
-                            <ul class="actions">
-                                <li><input type="submit" value="Send Message" /></li>
-                                <li><input type="reset" value="Clear Form" class="alt" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-12">
-                <hr />
-                <h3>Find me on ...</h3>
-                <ul class="social">
-                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                    <li><a href="https://github.com/drcorella-web" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                </ul>
-                <hr />
-            </div>
-        </div>
-        <footer>
-            <ul id="copyright">
-                <li>&copy; Carlos Corella R. All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </footer>
-    </div>
-</article>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Enviar Mensaje" class="primary" /></li>
+									<li><input type="reset" value="Limpiar" class="alt" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-12">
+					<hr />
+					<div id="map" class="col-12">
+						<h3 style="color: #ffffff;">Our Location</h3>
+						<div class="box style1"
+							style="margin-bottom: 2em; padding: 0; overflow: hidden; border-radius: 8px;">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d852.1264286127415!2d-114.743118!3d32.708468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzInNDInMzAuNSJOIDExNMKwNDQnMzUuMiJX!5e0!3m2!1ses-419!2smx!4v1710000000000!5m2!1ses-419!2smx"
+								width="100%" height="400" style="border:0; vertical-align: middle;" allowfullscreen=""
+								loading="lazy">
+							</iframe>
+						</div>
+
+						<p style="text-align: center; line-height: 1.6;">
+							<strong style="color: #ffffff; font-size: 1.3em; display: block; margin-bottom: 5px;">
+
+								White house with a sheet metal roof
+							</strong>
+							<span style="color: #dddddd; font-size: 1.1em;">
+								Sierra Coronado 475, Fraccionamiento del Valle, Los Algodones, B.C.
+							</span>
+						</p>
+						<div style="text-align: center; margin-bottom: 2em;">
+							<a href="https://wa.me/526645018908" class="button primary"
+								style="background-color: #25D366 !important; box-shadow: none;">
+								<i class="icon brands fa-whatsapp"></i> Send WhatsApp
+							</a>
+						</div>
+
+					</div>
+					<ul class="social">
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/drcorella-web" class="icon brands fa-github"><span
+									class="label">Github</span></a></li>
+					</ul>
+					<hr />
+					<h3>Nuestra ubicación en Los Algodones</h3>
+				</div>
+			</div>
+			<footer>
+				<ul id="copyright">
+					<li>© Carlos Corella R. Todos los derechos reservados.</li>
+					<li>Diseño: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+	</article>
+
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>

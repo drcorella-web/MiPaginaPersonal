@@ -126,62 +126,86 @@
 		</div>
 	</article>
 
-
 	<article id="contact" class="wrapper style4">
-    <div class="container medium">
-        <header>
-            <h2>Hablemos.</h2>
-            <p>Escríbeme para agendar una cita o realizar alguna consulta profesional.</p>
-        </header>
-        <div class="row">
-            <div class="col-12">
-                <form method="post" action="https://formspree.io/f/mzdapore">
-                    <div class="row">
-                        <div class="col-6 col-12-small">
-                            <input type="text" name="name" id="name" placeholder="Nombre" required />
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <input type="text" name="email" id="email" placeholder="Correo Electrónico" required />
-                        </div>
-                        <div class="col-12">
-                            <input type="text" name="subject" id="subject" placeholder="Asunto / Teléfono" />
-                        </div>
-                        <div class="col-12">
-                            <textarea name="message" id="message" placeholder="Mensaje" required></textarea>
-                        </div>
-
-                        <input type="hidden" name="_next" value="https://drcorella-web.github.io/gracias.html">
-
-                        <div class="col-12">
-                            <ul class="actions">
-                                <li><input type="submit" value="Enviar Mensaje" /></li>
-                                <li><input type="reset" value="Limpiar Formulario" class="alt" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-12">
-                <hr />
-                <h3>Encuéntrame en...</h3>
-                <ul class="social">
-                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                    <li><a href="https://github.com/drcorella-web" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                </ul>
-                <hr />
-            </div>
-        </div>
-        <footer>
-            <ul id="copyright">
-                <li>&copy; Carlos Corella R. Todos los derechos reservados.</li>
-                <li>Diseño: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </footer>
-    </div>
-</article>
+		<div class="container medium">
+			<header>
+				<h2>Hablemos.</h2>
+				<p>Escríbeme para agendar una cita o realizar alguna consulta profesional.</p>
+			</header>
+			<div class="row">
+				<div class="col-12">
+					<form method="POST" action="https://formspree.io/f/mzdapore">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-small">
+								<input type="text" name="name" id="name" placeholder="Nombre Completo" required />
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="text" name="email" id="email" placeholder="Correo Electrónico" required />
+							</div>
+							<div class="col-12">
+								<input type="text" name="subject" id="subject" placeholder="Asunto / Teléfono" />
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Mensaje" rows="6"
+									required></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Enviar Mensaje" class="primary" /></li>
+									<li><input type="reset" value="Limpiar" class="alt" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
 
 
+			</div>
+
+			<div id="map" class="col-12">
+				<h3 style="color: #ffffff;">Nuestra Ubicación</h3>
+				<div class="box style1" style="margin-bottom: 2em; padding: 0; overflow: hidden; border-radius: 8px;">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d852.1264286127415!2d-114.743118!3d32.708468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzInNDInMzAuNSJOIDExNMKwNDQnMzUuMiJX!5e0!3m2!1ses-419!2smx!4v1710000000000!5m2!1ses-419!2smx"
+						width="100%" height="400" style="border:0; vertical-align: middle;" allowfullscreen=""
+						loading="lazy">
+					</iframe>
+				</div>
+
+				<p style="text-align: center; line-height: 1.6;">
+					<strong style="color: #ffffff; font-size: 1.3em; display: block; margin-bottom: 5px;">
+						Casa Blanca con tejaban de lamina
+					</strong>
+					<span style="color: #dddddd; font-size: 1.1em;">
+						Sierra Coronado 475, Fraccionamiento del Valle, Los Algodones, B.C.
+					</span>
+				</p>
+
+				<div style="text-align: center; margin-bottom: 2em;">
+					<a href="https://wa.me/526645018908" class="button primary"
+						style="background-color: #25D366 !important; box-shadow: none;">
+						<i class="icon brands fa-whatsapp"></i> Enviar WhatsApp
+					</a>
+				</div>
+			</div>
+
+			<ul class="social">
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/drcorella-web" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+			</ul>
+			<hr />
+			<h3>Nuestra ubicación en Los Algodones</h3>
+		</div>
+		<footer>
+			<ul id="copyright">
+				<li>© Carlos Corella R. Todos los derechos reservados.</li>
+				<li>Diseño: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
+		</div>
+	</article>
 
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
